@@ -12,10 +12,13 @@ Description of work
                    4. Save code to notebooks/ folder
         - Cecilia: EDA (3 summary stats, at least one visualization) using R programming language - by end of day Thursday, Sept 11th
                Steps:
-                   1. 
-                   2.
-                   3. Save clean dataset to data/ folder
-                   4. Save code to notebooks/ folder (.r script)
+                   1. Cloned the Cecilia_Jenna_DSE511 repository on to my laptop
+                   2. Created a folder called data
+                   3. Created a folder called notebooks
+                   4. Pushed these changes to GitHUB to see if my changes applied
+                   5. 
+                   . Save clean dataset to data/ folder
+                   . Save code to notebooks/ folder (.r script)
         Both: Each of us must create a branch, make at least 3 commits, and open a pull request, and write all documentation.
                At least one merge conflict must be resolved (intentionally if needed)
                      One “safe” way to do this is both of you editing the README’s introduction
