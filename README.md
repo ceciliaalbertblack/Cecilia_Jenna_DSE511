@@ -19,6 +19,7 @@ Description of work
                    11. I identified that these rows corresponded to regions instead of single countries                            within the column called Country, so I decided to omit these observations from our                          data so we only consider metrics by individual country.
                    12. From this data, I selected a subset of countries, one per continent: Australia,                             United States, Brazil, Spain, China, Nigeria
                    13. Saved the clean subset of data as data within the data/ folder and saved my code to                         notebooks/ folder (.r script)
+                   14. Then, I merged my data/ folder from Cecilia_work branch to the main branch so that                          Jenna can access the clean subset of data to conduct EDA
         - Jenna: EDA (3 summary stats, at least one visualization) using R programming language - by end of day Thursday, Sept 11th
                Steps:
                    1.
