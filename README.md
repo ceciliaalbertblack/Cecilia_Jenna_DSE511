@@ -10,15 +10,14 @@ Steps:
 3. Created a folder called notebooks in main branch
 4. Pushed these changes to GitHUB to see if my changes applied
 5. Created a new branch called Cecilia_work
-6. Moved the data/ and notebooks/ folders to Cecilia_work branch
-7. Committed and pushed these changes to GitHUB
-8. Created a new r script in notebooks/
-9. I renamed the 1st column to Country and the 4th column to water_stress which are % values.
-10. I inspected the data set (tibble) for missing values using is.na() and found 91 NAs all within the Code column.
-11. I identified that these rows corresponded to regions instead of single countries within the column called Country, so I decided to omit these observations from our data so we only consider metrics by individual country.
-12. From this data, I selected a subset of countries, one per continent: Australia, United States, Brazil, Spain, China, Nigeria.
-13. Saved the clean subset of data as data within the data/ folder and saved my code to notebooks/ folder (.r script).
-14. Then, I merged my data/ folder from Cecilia_work branch to the main branch so that Jenna can access the clean subset of data to conduct EDA.
+6. Created a new r script in notebooks/
+7. I renamed the 1st column to Country and the 4th column to water_stress which are % values.
+8. I inspected the data set for missing values using is.na() and found 91 NAs all within the Code column.
+9. I identified that these rows corresponded to regions instead of single countries within the column called Country, so I decided to omit these observations from our data so we only consider metrics by individual country.
+10. From this data, I selected a subset of countries, one per continent: Australia, United States, Brazil, Spain, China, Nigeria.
+11. I saved subset_data as a new tab in the data.xlsx file in data/ folder
+12. Next, I saved my code to notebooks/ folder (.r script).
+13. Then, I merged my data/ folder from Cecilia_work branch to the main branch so that Jenna can access the clean subset of data to conduct EDA.
 
 - Jenna: EDA (3 summary stats, at least one visualization) using R programming language
 Steps:
