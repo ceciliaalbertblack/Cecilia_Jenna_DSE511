@@ -4,13 +4,7 @@ Description of work
   Dataset source: Our World in Data accessed on 9/4/2025 from https://ourworldindata.org/water-use-stress#what-share-of-freshwater-resources-do-we-use
   Dataset name: "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources" yearly by country
   Responsibilites by person and deadline
-        - Jenna: Data cleaning (handle missing values, rename variables, select subset) using R/Python (choose one) - by end of day Tuesday, Sept 9th
-               Steps:
-                   1. 
-                   2.
-                   3. Save clean dataset to data/ folder
-                   4. Save code to notebooks/ folder
-        - Cecilia: EDA (3 summary stats, at least one visualization) using R programming language - by end of day Thursday, Sept 11th
+        - Cecilia: Data cleaning (handle missing values, rename variables, select subset) using R/Python (choose one) - by end of day Tuesday, Sept 9th
                Steps:
                    1. Cloned the Cecilia_Jenna_DSE511 repository on to my laptop
                    2. Created a folder called data in main branch
@@ -18,8 +12,12 @@ Description of work
                    4. Pushed these changes to GitHUB to see if my changes applied
                    5. Created a new branch called Cecilia_work
                    6. Moved the data/ and notebooks/ folders to Cecilia_work branch
-                   . Save clean dataset to data/ folder
-                   . Save code to notebooks/ folder (.r script)
+                   #. Save clean dataset to data/ folder and save code to notebooks/ folder (.r script)
+        - Jenna: EDA (3 summary stats, at least one visualization) using R programming language - by end of day Thursday, Sept 11th
+               Steps:
+                   1.
+                   2.
+                   Final. Save code to notebooks/ folder
         Both: Each of us must create a branch, make at least 3 commits, and open a pull request, and write all documentation.
                At least one merge conflict must be resolved (intentionally if needed)
                      One “safe” way to do this is both of you editing the README’s introduction
