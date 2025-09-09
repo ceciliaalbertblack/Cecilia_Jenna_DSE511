@@ -18,3 +18,14 @@ subset_data <- raw_data %>%
 
 # Check the data
 head(subset_data)
+
+# Summary statistics for water_stress
+mean_stress <- mean(subset_data$water_stress, na.rm = TRUE)
+median_stress <- median(subset_data$water_stress, na.rm = TRUE)
+sd_stress <- sd(subset_data$water_stress, na.rm = TRUE)
+
+mean_stress # 22.54
+median_stress # 18.1
+sd_stress # 17.58
+
+
