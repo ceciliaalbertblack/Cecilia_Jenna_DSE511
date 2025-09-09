@@ -28,4 +28,13 @@ mean_stress # 22.54
 median_stress # 18.1
 sd_stress # 17.58
 
-
+# Bar plot of average water stress by country
+subset_data %>%
+  group_by(Country) %>%
+  summarise(avg_stress = mean(water_stress, na.rm = TRUE)) %>%
+  ggplot(aes(x = Country, y = avg_stress, fill = Country)) +
+  geom_col() +
+  labs(title = "Average Water Stress by Country",
+       y = "Water Stress (%)",
+       x = "Country") +
+  theme_minimal()
