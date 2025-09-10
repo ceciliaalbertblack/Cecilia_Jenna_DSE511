@@ -1,5 +1,5 @@
 # Cecilia_Jenna_DSE511
-Homework 3 due Monday, September 15th.
+Homework 3 due Monday, September 15th .
 Dataset source: Our World in Data accessed on 9/4/2025 from https://ourworldindata.org/water-use-stress#what-share-of-freshwater-resources-do-we-use.
 Dataset name: "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources" yearly by country.
 Responsibilites by person:
@@ -20,9 +20,18 @@ Steps:
 13. Then, I merged my data/ folder from Cecilia_work branch to the main branch so that Jenna can access the clean subset of data to conduct EDA.
 
 - Jenna: EDA (3 summary stats, at least one visualization) using R programming language
-Steps:
-1.
-2.
+Steps:  
+1. Created a new branch called Jenna from the main branch.  
+2. Opened the project in Posit Cloud and installed the required R libraries (readxl, dplyr, ggplot2).  
+3. Loaded Cecilia’s cleaned dataset (`data/data.xlsx`) and selected the subset of six countries: Australia, United States, Brazil, Spain, China, Nigeria.  
+4. Computed three summary statistics (mean, median, and standard deviation) of the water_stress variable.  
+5. Generated a bar chart showing the average water stress by country and exported it as a PNG file.  
+6. Saved all code in the `notebooks/` folder as an R script and committed changes.  
+7. Made at least three commits (adding script, adding summary stats, adding visualization) and pushed them to the Jenna branch on GitHub.  
+8. Verified that my work appears in the repository history.
+9. Created PR from my fork to Cecilia's repository.
+10. Made intentional merge conflict.
+
 Final #. Save code to notebooks/ folder
 
 Both: Each of us must create a branch, make at least 3 commits, and open a pull request, and write all documentation. At least one merge conflict must be resolved (intentionally if needed). One “safe” way to do this is both of you editing the README’s introduction
