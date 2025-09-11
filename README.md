@@ -1,5 +1,5 @@
 # Cecilia_Jenna_DSE511
-Homework 3 due Monday, September 15th.
+Homework 3 due Monday, September 15th .
 Dataset source: Our World in Data accessed on 9/4/2025 from https://ourworldindata.org/water-use-stress#what-share-of-freshwater-resources-do-we-use.
 Dataset name: "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources" yearly by country.
 Responsibilites by person:
@@ -15,14 +15,30 @@ Steps:
 8. I inspected the data set for missing values using is.na() and found 91 NAs all within the Code column.
 9. I identified that these rows corresponded to regions instead of single countries within the column called Country, so I decided to omit these observations from our data so we only consider metrics by individual country.
 10. From this data, I selected a subset of countries, one per continent: Australia, United States, Brazil, Spain, China, Nigeria.
-11. I saved subset_data as a new tab in the data.xlsx file in data/ folder
+11. I saved clean_data as a new tab in the data.xlsx file in data/ folder
 12. Next, I saved my code to notebooks/ folder (.r script).
-13. Then, I merged my data/ folder from Cecilia_work branch to the main branch so that Jenna can access the clean subset of data to conduct EDA.
+13. Then, I pushed and committed these changes to the GitHub repo.
+13. Lastly, I merged my data/ folder from Cecilia_work branch to the main branch so that Jenna can access the clean subset of data to conduct EDA.
 
 - Jenna: EDA (3 summary stats, at least one visualization) using R programming language
+Steps:  
+1. Created a new branch called Jenna from the main branch.  
+2. Opened the project in Posit Cloud and installed the required R libraries (readxl, dplyr, ggplot2).  
+3. Loaded Cecilia’s cleaned dataset (`data/data.xlsx`) and selected the subset of six countries: Australia, United States, Brazil, Spain, China, Nigeria.  
+4. Computed three summary statistics (mean, median, and standard deviation) of the water_stress variable.  
+5. Generated a bar chart showing the average water stress by country and exported it as a PNG file.  
+6. Saved all code in the `notebooks/` folder as an R script and committed changes.  
+7. Made at least three commits (adding script, adding summary stats, adding visualization) and pushed them to the Jenna branch on GitHub.  
+8. Verified that my work appears in the repository history.
+9. Created PR from my fork to Cecilia's repository.
+10. Made intentional merge conflict.
+
+- Both: Merge conflict
 Steps:
-1.
-2.
+1. Jenna requested to merge her branch to main, Cecilia approved it on GitHub.
+2. Cecilia opened the repo on her laptop, pulled the repo using Git Bash, opened the README and saw Jenna's changes. However, on GitHub, Jenna's merge to main is not displayed.
+3. 
+
 Final #. Save code to notebooks/ folder
 
 Both: Each of us must create a branch, make at least 3 commits, and open a pull request, and write all documentation. At least one merge conflict must be resolved (intentionally if needed). One “safe” way to do this is both of you editing the README’s introduction
