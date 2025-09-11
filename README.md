@@ -2,7 +2,7 @@
 Homework 3 due Monday, September 15th .
 Dataset source: Our World in Data accessed on 9/4/2025 from https://ourworldindata.org/water-use-stress#what-share-of-freshwater-resources-do-we-use.
 Dataset name: "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources" yearly by country.
-Responsibilites by person:
+Responsibilites by person (framework created by Cecilia on 9/4/25 based on Homework3.pdf)
 - Cecilia: Data cleaning (handle missing values, rename variables, select subset) using R
 Steps:
 1. Cloned the Cecilia_Jenna_DSE511 repository on to my laptop
@@ -37,17 +37,6 @@ Steps:
 Steps:
 1. Jenna requested to merge her branch to main, Cecilia approved it on GitHub.
 2. Cecilia opened the repo on her laptop, pulled the repo using Git Bash, opened the README and saw Jenna's changes. However, on GitHub, Jenna's merge to main is not displayed.
-3. 
-
-Final #. Save code to notebooks/ folder
-
-Both: Each of us must create a branch, make at least 3 commits, and open a pull request, and write all documentation. At least one merge conflict must be resolved (intentionally if needed). One “safe” way to do this is both of you editing the README’s introduction
-
-Review before submitting on Canvas on Friday, Sept 12th
-- Both Cecilia and Jenna check that there are the following in Cecilia_Jenna_DSE511 Repo:
-data/folder with clean dataset
-notebooks/ folder with analysis code
-README.md
-Cecilia and Jenna each submit a copy of Repo URL to Canvas
-
-Framework created by Cecilia on 9/4/25 based on Homework3.pdf
+3. Cecilia opened git bash and looked at the status of the repo. She saw Jenna's additions to the repo and Cecilia's updates to README.md. She staged all the files then pushed to gitHUB. When she checked the gitHUB repo, everything was up-to-date. 
+4. Cecilia updated the README.md with how she solved the merge conflict.
+5. Both Jenna and Cecilia reviewed that we completed all tasks for this assignment before submitting.
